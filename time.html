@@ -1,0 +1,54 @@
+<!--
+ * @Author: your name
+ * @Date: 2019-12-29 17:22:30
+ * @LastEditTime : 2019-12-29 19:30:20
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \countdown\2020.html
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Time</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div id= "clock">
+			<h2>Time is </h2>
+			<div id="time">
+				<div><span id="hour">00</span><span>Hour</span></div>
+				<div><span id="minute">00</span><span>minute</span></div>
+				<div><span id="second">00</span><span>second</span></div>
+				
+			</div>
+		</div>
+			
+		
+		
+			<script type="text/javascript">
+				
+				function day(){
+
+					var second = document.getElementById('second');
+					var minute = document.getElementById('minute');
+					var hour = document.getElementById('hour');
+					
+					
+					
+					var h = new Date().getHours();
+					var m = new Date().getMinutes();
+					var s = new Date().getSeconds();
+					
+					hour.innerText  = h;
+					minute.innerText  = m;
+					second.innerText  = s;
+				};
+				setInterval(function(){
+					day();
+				},1000)
+				
+			</script>
+	</body>
+</html>
