@@ -1,2 +1,4 @@
 # time
-link:https://codepen.io/alexD16/pen/OJPzrPp
+link:https://github.com/alexyangdec16/time/time
+codepen:
+https://codepen.io/alexD16/pen/OJPzrPp
